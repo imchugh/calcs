@@ -1,11 +1,28 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
+
+# calculator/test.py
+
+"""Doing this to test.
+
+
 """
-Created on Wed Mar 27 11:21:13 2024
 
-@author: imchugh
-"""
+def gimme_double(arg1, arg2):
+    """
+    This just returns the number doubled
 
-"""Provide several sample dog calculations.
+    Parameters
+    ----------
+        arg1 : int
+            Description of arg1
+        arg2 : int
+            Description of arg2
 
-Blah de blah de blah"""
+    Returns
+    -------
+    The original number, doubled.
+
+    """
+    
+    return arg1 * arg2
